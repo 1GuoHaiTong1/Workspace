@@ -13,12 +13,12 @@ class List
 {
 public:
     List() { mHead = nullptr; }
-    ~List() {}
+    ~List() {DestroyList();}
     void CreateListHeadInsert(std::vector<T> arr);
     void CreateListTailInsert(std::vector<T> arr);
     void PrintList();
-    void DestroyList(Node<T> *head);
-
+    void DestroyList();
 private:
     Node<T> *mHead;
 };
+template class List<int>;

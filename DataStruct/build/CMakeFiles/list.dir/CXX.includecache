@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guohaitong/C++/DataStruct/Workspace/DataStruct/include/List.h
+vector
+-
+iostream
+-
+
+/home/guohaitong/C++/DataStruct/Workspace/DataStruct/main/main.cpp
+iostream
+-
+../include/List.h
+/home/guohaitong/C++/DataStruct/Workspace/DataStruct/include/List.h
+
+/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/List.cpp
+../include/List.h
+/home/guohaitong/C++/DataStruct/Workspace/DataStruct/include/List.h
+
