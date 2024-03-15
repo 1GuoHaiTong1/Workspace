@@ -22,7 +22,7 @@ int main()
     tree.CreateTree(treearr);
     tree.Print(BinTree<char>::Levelorder_Taversal);
     tree.Search('5');
-    tree.Delete('4');
+    tree.Delete('1');
     tree.Print(BinTree<char>::Levelorder_Taversal);
     return 0;
 }

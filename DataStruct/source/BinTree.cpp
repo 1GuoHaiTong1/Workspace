@@ -8,10 +8,16 @@ BinTree<T>::BinTree()
 template <typename T>
 BinTree<T>::~BinTree()
 {
+    DestroyTree(mRoot);
 }
 template <typename T>
-void BinTree<T>::DestroyTree()
+void BinTree<T>::DestroyTree(TreeNode *root)
 {
+    if(!root) return;
+    DestroyTree(root->left);
+    DestroyTree(root->right);
+    std::cout<<root->val<<std::endl;
+    delete root;
 }
 template <typename T>
 typename BinTree<T>::TreeNode *BinTree<T>::Create(std::vector<T> arr, TreeNode *root, int &index)
