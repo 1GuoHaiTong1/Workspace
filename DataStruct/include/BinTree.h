@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 template <typename T>
 class BinTree
 {
@@ -27,7 +28,6 @@ public:
     ~BinTree();
     void CreateTree(std::vector<T> arr);
 
-    void Insert(T value);
     bool Search(T value);
     void Delete(T value);
     void Print(int TraversalMode);
@@ -41,6 +41,9 @@ private:
     void PreorderTraversal(TreeNode *root);
     void PostorderTraversal(TreeNode *root);
     void LevelorderTaversal(TreeNode *root);
+    void PreorderTraversalIteration(TreeNode *root);
+    void InorderTraversalIteration(TreeNode *root);
+    void PostorderTraversalIteration(TreeNode *root);
     TreeNode *Create(std::vector<T> arr, TreeNode *root, int &index);
     TreeNode *mRoot;
 };
