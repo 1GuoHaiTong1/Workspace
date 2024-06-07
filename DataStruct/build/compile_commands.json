@@ -1,0 +1,43 @@
+[
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/main/main.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/main/main.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/main/main.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/BSTree.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/BSTree.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/BSTree.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/BinTree.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/BinTree.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/BinTree.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/Heap.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Heap.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Heap.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/List.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/List.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/List.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/Queue.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Queue.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Queue.cpp"
+},
+
+{
+  "directory": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/build",
+  "command": "/usr/bin/g++   -I../include  -g   -o CMakeFiles/main.dir/source/Stack.cpp.o -c /home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Stack.cpp",
+  "file": "/home/guohaitong/C++/DataStruct/Workspace/DataStruct/source/Stack.cpp"
+}
+]
